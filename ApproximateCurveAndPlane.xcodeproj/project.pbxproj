@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14A437B242340A100B7F655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A437A242340A100B7F655 /* AppDelegate.swift */; };
+		A14A437D242340A100B7F655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A437C242340A100B7F655 /* ViewController.swift */; };
+		A14A437F242340A800B7F655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14A437E242340A800B7F655 /* Assets.xcassets */; };
+		A14A4382242340A800B7F655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14A4380242340A800B7F655 /* Main.storyboard */; };
+		A14A438B2423416400B7F655 /* ApproxCurveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A438A2423416400B7F655 /* ApproxCurveViewController.swift */; };
+		A14A438D2423419C00B7F655 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A438C2423419C00B7F655 /* ChartView.swift */; };
+		A14A439324234B2D00B7F655 /* ApproxPlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A439224234B2D00B7F655 /* ApproxPlaneViewController.swift */; };
+		A14A439624234C3400B7F655 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A14A439424234C3400B7F655 /* art.scnassets */; };
+		A14A439A2423583E00B7F655 /* DrawFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A43992423583E00B7F655 /* DrawFunctions.swift */; };
+		A14A439C2423587400B7F655 /* CalcuFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A439B2423587400B7F655 /* CalcuFunctions.swift */; };
+		A14A439E242358A100B7F655 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A439D242358A100B7F655 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A14A4377242340A100B7F655 /* ApproximateCurveAndPlane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApproximateCurveAndPlane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14A437A242340A100B7F655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A14A437C242340A100B7F655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A14A437E242340A800B7F655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14A4381242340A800B7F655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14A4383242340A800B7F655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14A4384242340A800B7F655 /* ApproximateCurveAndPlane.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApproximateCurveAndPlane.entitlements; sourceTree = "<group>"; };
+		A14A438A2423416400B7F655 /* ApproxCurveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproxCurveViewController.swift; sourceTree = "<group>"; };
+		A14A438C2423419C00B7F655 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		A14A439224234B2D00B7F655 /* ApproxPlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproxPlaneViewController.swift; sourceTree = "<group>"; };
+		A14A439424234C3400B7F655 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A14A43992423583E00B7F655 /* DrawFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawFunctions.swift; sourceTree = "<group>"; };
+		A14A439B2423587400B7F655 /* CalcuFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcuFunctions.swift; sourceTree = "<group>"; };
+		A14A439D242358A100B7F655 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14A4374242340A100B7F655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A14A436E242340A100B7F655 = {
+			isa = PBXGroup;
+			children = (
+				A14A4379242340A100B7F655 /* ApproximateCurveAndPlane */,
+				A14A4378242340A100B7F655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A14A4378242340A100B7F655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14A4377242340A100B7F655 /* ApproximateCurveAndPlane.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14A4379242340A100B7F655 /* ApproximateCurveAndPlane */ = {
+			isa = PBXGroup;
+			children = (
+				A14A437A242340A100B7F655 /* AppDelegate.swift */,
+				A14A437C242340A100B7F655 /* ViewController.swift */,
+				A14A437E242340A800B7F655 /* Assets.xcassets */,
+				A14A4380242340A800B7F655 /* Main.storyboard */,
+				A14A438E242341A300B7F655 /* for approx curve */,
+				A14A439124234B0900B7F655 /* for approx plane */,
+				A14A43982423580100B7F655 /* functions */,
+				A14A4383242340A800B7F655 /* Info.plist */,
+				A14A439424234C3400B7F655 /* art.scnassets */,
+				A14A4384242340A800B7F655 /* ApproximateCurveAndPlane.entitlements */,
+			);
+			path = ApproximateCurveAndPlane;
+			sourceTree = "<group>";
+		};
+		A14A438E242341A300B7F655 /* for approx curve */ = {
+			isa = PBXGroup;
+			children = (
+				A14A438A2423416400B7F655 /* ApproxCurveViewController.swift */,
+				A14A438C2423419C00B7F655 /* ChartView.swift */,
+			);
+			name = "for approx curve";
+			sourceTree = "<group>";
+		};
+		A14A439124234B0900B7F655 /* for approx plane */ = {
+			isa = PBXGroup;
+			children = (
+				A14A439224234B2D00B7F655 /* ApproxPlaneViewController.swift */,
+			);
+			name = "for approx plane";
+			sourceTree = "<group>";
+		};
+		A14A43982423580100B7F655 /* functions */ = {
+			isa = PBXGroup;
+			children = (
+				A14A43992423583E00B7F655 /* DrawFunctions.swift */,
+				A14A439B2423587400B7F655 /* CalcuFunctions.swift */,
+				A14A439D242358A100B7F655 /* Extensions.swift */,
+			);
+			name = functions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14A4376242340A100B7F655 /* ApproximateCurveAndPlane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14A4387242340A800B7F655 /* Build configuration list for PBXNativeTarget "ApproximateCurveAndPlane" */;
+			buildPhases = (
+				A14A4373242340A100B7F655 /* Sources */,
+				A14A4374242340A100B7F655 /* Frameworks */,
+				A14A4375242340A100B7F655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApproximateCurveAndPlane;
+			productName = ApproximateCurveAndPlane;
+			productReference = A14A4377242340A100B7F655 /* ApproximateCurveAndPlane.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14A436F242340A100B7F655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "TATSUYA YAMAGUCHI";
+				TargetAttributes = {
+					A14A4376242340A100B7F655 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A14A4372242340A100B7F655 /* Build configuration list for PBXProject "ApproximateCurveAndPlane" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A14A436E242340A100B7F655;
+			productRefGroup = A14A4378242340A100B7F655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14A4376242340A100B7F655 /* ApproximateCurveAndPlane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14A4375242340A100B7F655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14A437F242340A800B7F655 /* Assets.xcassets in Resources */,
+				A14A439624234C3400B7F655 /* art.scnassets in Resources */,
+				A14A4382242340A800B7F655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14A4373242340A100B7F655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14A439C2423587400B7F655 /* CalcuFunctions.swift in Sources */,
+				A14A439E242358A100B7F655 /* Extensions.swift in Sources */,
+				A14A437D242340A100B7F655 /* ViewController.swift in Sources */,
+				A14A437B242340A100B7F655 /* AppDelegate.swift in Sources */,
+				A14A438B2423416400B7F655 /* ApproxCurveViewController.swift in Sources */,
+				A14A438D2423419C00B7F655 /* ChartView.swift in Sources */,
+				A14A439A2423583E00B7F655 /* DrawFunctions.swift in Sources */,
+				A14A439324234B2D00B7F655 /* ApproxPlaneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A14A4380242340A800B7F655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14A4381242340A800B7F655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A14A4385242340A800B7F655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A14A4386242340A800B7F655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A14A4388242340A800B7F655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ApproximateCurveAndPlane/ApproximateCurveAndPlane.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ApproximateCurveAndPlane/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A14A4389242340A800B7F655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ApproximateCurveAndPlane/ApproximateCurveAndPlane.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ApproximateCurveAndPlane/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14A4372242340A100B7F655 /* Build configuration list for PBXProject "ApproximateCurveAndPlane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14A4385242340A800B7F655 /* Debug */,
+				A14A4386242340A800B7F655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14A4387242340A800B7F655 /* Build configuration list for PBXNativeTarget "ApproximateCurveAndPlane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14A4388242340A800B7F655 /* Debug */,
+				A14A4389242340A800B7F655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14A436F242340A100B7F655 /* Project object */;
+}
