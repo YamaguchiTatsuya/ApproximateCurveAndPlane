@@ -45,8 +45,9 @@ class DrawFunctions: NSObject {
         
         func DrawLineNode(_ positions: [SCNVector3], _ color: NSColor) {
             let indices: [Int32] = [0, 1]
-            let indexData = Data(bytes: UnsafeRawPointer(indices), count: 2*MemoryLayout<Int>.size)
-            
+//            let indexData = Data(bytes: UnsafeRawPointer(indices), count: 2*MemoryLayout<Int>.size)
+            let indexData = Data(bytes: indices, count: 2*MemoryLayout<Int>.size)
+
             let vertexSource = SCNGeometrySource(vertices: positions)
             
             let element = SCNGeometryElement(data: indexData,
@@ -87,8 +88,9 @@ class DrawFunctions: NSObject {
     class func makeDotsNode(_ vertices: [simd_float3], radius: Float) -> SCNNode {
         
         let nofDots = vertices.count
-        let data = Data(bytes: UnsafeRawPointer(vertices) , count: nofDots*MemoryLayout<simd_float3>.size)
-        
+//        let data = Data(bytes: UnsafeRawPointer(vertices) , count: nofDots*MemoryLayout<simd_float3>.size)
+        let data = Data(bytes: vertices , count: nofDots*MemoryLayout<simd_float3>.size)
+
         let vertexSource = SCNGeometrySource(data: data,
                                              semantic: SCNGeometrySource.Semantic.vertex,
                                              vectorCount: nofDots,
